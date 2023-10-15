@@ -14,6 +14,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
 
   .opening-hours {
     font-weight: 400;

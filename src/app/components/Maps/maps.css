@@ -1,0 +1,14 @@
+
+.button_maps{
+    background-color: transparent;
+    border: none;
+    margin: 20px 0px;
+}
+.button_maps:first-child{
+    width: 150px;
+    height: auto;
+}
+.button_maps:last-child{
+    width: 100%;
+    height: auto;
+}

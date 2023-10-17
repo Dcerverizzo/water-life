@@ -9,3 +9,7 @@
   --primary-font: 'Julius Sans One',
     sans-serif;
 }
+body{
+  background-color: var(--black);
+  color: var(--white);
+}

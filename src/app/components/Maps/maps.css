@@ -5,7 +5,8 @@
     margin: 20px 0px;
 }
 .button_maps:first-child{
-    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
     height: auto;
 }
 .button_maps:last-child{

@@ -20,7 +20,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Header />
-        <Carousel />
         <Footer />
       </body>
     </html>

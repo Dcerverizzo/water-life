@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Header />
+        <p>Ia te mandar msg ontem, mas não quis te acordar, hoje o bagulho deu uma fluída! </p>
         <Footer />
       </body>
     </html>

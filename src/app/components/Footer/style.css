@@ -25,5 +25,19 @@ footer {
 
   .company {
     color: var(--white);
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+  }
+  .social-media{
+    display: flex;
+    width: 350px;
+    flex-direction: row;
+    justify-content: space-around;
+    img{
+      width: 100%;
+      height: auto;
+    }
   }
 }

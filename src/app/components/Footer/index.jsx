@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import './style.css';
+import "./style.css";
 
-import React from 'react'
+import React from "react";
 
 export default function Footer() {
   return (
@@ -10,18 +10,28 @@ export default function Footer() {
       <footer>
         <div className="opening-hours">
           <p>
-            ⏰Nosso horário de funcionamento:⏰ De segunda a sexta das 09h as 18h, sábado das 09h as 17h
+            ⏰Nosso horário de funcionamento:⏰ De segunda a sexta das 09h as
+            18h, sábado das 09h as 17h
           </p>
         </div>
         <div className="company">
-          @WATERLIFE AQUARISMO 2023
-        </div>
-        <div className="social-media">
-          Instagram
-          Wpp
-          Facebook
-        </div>
+            <figure>
+              <img src="./icons/copyrigth.svg" alt="copyrigth" />
+            </figure>
+            WATERLIFE AQUARISMO 2023
+          </div>
+        <figure className="social-media">
+          <a href="">
+            <img src="./icons/instaWater.svg" alt=" instagram" />
+          </a>
+          <a href="">
+            <img src="./icons/whatsWater.svg" alt=" whatsApp" />
+          </a>
+          <a href="">
+            <img src="./icons/faceWater.svg" alt=" facebook" />
+          </a>
+        </figure>
       </footer>
     </div>
-  )
+  );
 }

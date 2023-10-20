@@ -5,9 +5,6 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Carousel from "./components/Carousel/Carousel";
 
-
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -20,7 +17,6 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Header />
-        <p>Ia te mandar msg ontem, mas não quis te acordar, hoje o bagulho deu uma fluída! </p>
         <Footer />
       </body>
     </html>
